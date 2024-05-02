@@ -1,2 +1,2 @@
 [all]
-127.0.0.1  ansible_connection=local
+192.168.1.103    ansible_user=andyg ansible_ssh_private_key_file=/home/appuser/.ssh/id_rsa ansible_connection=ssh
