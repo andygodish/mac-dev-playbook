@@ -166,3 +166,12 @@ This project was created by [Jeff Geerling](https://www.jeffgeerling.com/) (orig
 
 [badge-gh-actions]: https://github.com/geerlingguy/mac-dev-playbook/workflows/CI/badge.svg?event=push
 [link-gh-actions]: https://github.com/geerlingguy/mac-dev-playbook/actions?query=workflow%3ACI
+
+## Command vs Shell
+
+Some of the dockutil commands in the dock role did not work with the command util. I got them working using `shell` instead. These changes are blocked by the .gitignore. 
+
+### dockutil PATH issue
+
+I also had to reference the complete path for this tool.
+
