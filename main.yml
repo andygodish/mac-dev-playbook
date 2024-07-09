@@ -25,6 +25,9 @@
     - role: geerlingguy.mac.dock
       when: configure_dock
       tags: ['dock']
+    - role: andygodish.ohmyzsh
+      when: configure_ohmyzsh
+      tags: ['ohmyzsh']
 
   tasks:
     - import_tasks: tasks/sudoers.yml
