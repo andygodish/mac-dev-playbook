@@ -3,10 +3,10 @@
 {
 	"name": "mac-dev-playbook",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "devcontainer-ansible:3.12-slim-bookworm",
+	"image": "devcontainer-ansible:3.13-slim-bookworm",
 	"mounts": [
-    	"source=/Users/andy/.ssh,target=/.ssh,type=bind,consistency=cached",
-		"source=/Users/andy/.zsh_history,target=/root/.zsh_history,type=bind,consistency=cached"
+    	"source=/Users/andyg/.ssh,target=/.ssh,type=bind,consistency=cached",
+		// "source=/Users/andyg/.zsh_history,target=/root/.zsh_history,type=bind,consistency=cached"
     ]
 	// "runArgs": ["--network=host"]
 }
